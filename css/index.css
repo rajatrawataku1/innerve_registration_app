@@ -1,0 +1,103 @@
+
+::-webkit-scrollbar {
+        display: none;
+    }
+
+::-moz-scrollbar {
+        display: none;
+    }
+
+body{
+  font-family: nunito;
+  background-color: black;
+}
+
+ /*#666666*/
+
+.main_box{
+  background-color:black;
+}
+
+@font-face {
+ font-family:pacifico;
+ src: url("/Pacifico-Regular.ttf");
+}
+
+
+@font-face {
+ font-family:nunito;
+ src: url("/NunitoSans-Regular.ttf");
+}
+
+#oss_photo
+{
+  position: absolute;
+  top: 5%;
+  left: 7%;
+  height: 13%;
+  width: 8%;
+  background-image: url("/img/osss.png");
+  background-size: 100% 100%;
+  z-index: 10;
+}
+
+#ait_photo{
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  height: 15%;
+  width: 10%;
+  background-image: url("/img/ai.png");
+  background-size: 100% 100%;
+}
+
+#main_heading
+{
+  font-family: pacifico;
+  color: white;
+}
+
+#main_frame
+{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+
+}
+
+#registration_main_div
+{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  height: 100%;
+  width: 100%;
+  display: none;
+  background-color: black;
+}
+
+#starting_page_pr_team
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background: black;
+    display: block;
+}
+
+#loader_window
+{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  z-index: 130000;
+  transform: translate(-50%,-50%);
+}
+
+
+.modal { width: 70% !important ; max-height: 40% !important ; overflow-y: hidden !important ;}
